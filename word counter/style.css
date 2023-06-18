@@ -1,0 +1,45 @@
+
+body{
+    font-family: sans-serif;
+    background-image: url(media/1615793_m1.jpg);
+}
+
+.container{
+    border: 2px solid transparent;
+    border-radius: 8px;
+    height: 50vh;
+    width: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    background-color: aliceblue;
+}
+
+h2{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 500;
+   font-size: 55px;
+   border: 2px solid transparent;
+   color: darkblue;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10vh;
+   
+}
+#textinput{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+button{
+    margin-bottom: 10px;
+    border: none;
+}
+
+#words-count{
+    font-weight: bold;
+    color: black;
+    font-size: xx-large;
+}
